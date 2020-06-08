@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="categoriestableModelStoreContainer" CdmEntityContainer="categoriestableEntities">
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="categoriestableModel.category">
+        <MappingFragment StoreEntitySet="categories">
+          <ScalarProperty Name="category1" ColumnName="category" />
+          <ScalarProperty Name="sub_category" ColumnName="sub_category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
